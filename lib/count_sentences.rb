@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     ary = []
-    ary << self.split("." && "!" && "?")
+    ary << self.split("." || "!" || "?")
     ary = ary.flatten
     ary.length
   end
