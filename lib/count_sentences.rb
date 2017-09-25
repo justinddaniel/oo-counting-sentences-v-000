@@ -15,6 +15,8 @@ class String
   end
 
   def count_sentences
-
+    ary = []
+    ary << self.join(".")
+    ary.length
   end
 end
