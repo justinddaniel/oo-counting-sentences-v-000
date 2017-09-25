@@ -16,7 +16,6 @@ class String
 
   def count_sentences
     ary = []
-    binding.pry
     ary << self.split("." || "!!" || "?")
     ary = ary.flatten
     ary.length
