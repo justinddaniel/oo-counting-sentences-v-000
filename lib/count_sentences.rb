@@ -18,6 +18,6 @@ class String
     ary = []
     ary << self.split(".")
     ary = ary.flatten
-    ary.length - 1
+    ary.length
   end
 end
