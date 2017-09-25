@@ -16,9 +16,8 @@ class String
 
   def count_sentences
     ary = []
-    binding.pry
     ary << self.split(/[.!?]/)
     ary.delete("")
-    ary.length  
+    ary.length
   end
 end
