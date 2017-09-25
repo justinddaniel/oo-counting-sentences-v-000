@@ -17,6 +17,7 @@ class String
   def count_sentences
     ary = []
     ary << self.join(".")
+    binding.pry
     ary.length
   end
 end
